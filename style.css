@@ -1,0 +1,149 @@
+a{
+    color:black;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:blue;
+}
+.navbar{
+    display:flex;
+    width: 100%;
+    flex-direction: row; 
+    background-color: white(242, 212, 18);
+    justify-content: space-between;
+    nav {
+        margin-right: 30px;
+    }
+
+}
+.center{
+   display:flex;
+    align-items: center;
+}
+
+button{
+    border-radius: 8px;
+    background-color:rgb(88, 132, 23);
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+.icon{
+    font-style:normal;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+.rowstart{
+    display:flex;
+   flex-direction: column;
+   text-align: left;
+   align-items: left;
+   color:rgb(1, 8, 13);
+   background-color: rgb(242, 212, 18);
+        h1{
+                 font-size: 100px;
+                 padding:20px;
+         }
+        p{
+                 font-size: 20px;
+                 padding:20px;
+       }
+       .bng{
+        border-radius: 20px;
+        background-color: black;
+        color:white;
+        font-size: 20px;
+        text-decoration: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        align-items: center;
+        padding-inline: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.card {
+    padding: 35px;
+    margin: 10px;
+    text-align: left;
+    background-color: white; 
+  }
+  
+ .btn1{
+    background-color: whitesmoke;
+    font-size: 15px;
+    color:black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: none;
+  }
+  .btn1:hover{
+    color: blue;
+  }
+  img{
+    width: 200px;
+    height:134px;
+    vertical-align: middle;
+  
+  }
+.img1{
+  width:30px;
+  height:25px;
+  display: flex;
+  flex-direction: column;
+
+}
+.medium{
+  height: 34px;
+  width:30px;
+}
+
+.disclaimer{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end ;
+  justify-items: center;
+}
+
+.story{
+
+  
+  .abc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+  }
+}
+.company{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  width:100%;
+  height:fit-content;
+
+  .icn{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+.x{
+  width:60%;
+  height:fit-content;
+}
